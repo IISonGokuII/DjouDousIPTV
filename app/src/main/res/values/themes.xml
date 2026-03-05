@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme -->
+    <style name="Theme.DjouDousIPTV" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <!-- No ActionBar variant for Compose -->
+    <style name="Theme.DjouDousIPTV.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
